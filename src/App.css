@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.calculator{
+  margin-top: 100px;
+  background: #09aa31;
+  width: 300px;
+  min-height: 420px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.calculator h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.screen {
+  height: 2.5rem;
+  width: 13rem;
+  padding: 0.4rem;
+  border: 1px solid white;
+  margin: 0.3rem 0.3rem 1.5rem 0.3rem;
+  font-size: 1.5rem;
+  color: #fff;
+  box-shadow: 8px 8px 5px -7px var(#111);
+}
+
+.calculator button {
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+}
+
+.calculator-buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-operators {
+  display: flex;
+  flex-direction: column;
+}
